@@ -6,3 +6,17 @@
 
 <h1>@ViewData["Title"]</h1>
 <partial name="_StatusMessage" model="Model.StatusMessage" />
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <h1 class="text-center mb-4 inter header-large bold">Email Confirmed</h1>
+                    <p class="text-center mb-4 inter body-secondary">Your mail has been successfully confirmed.</p>
+                    <p class="text-center mb-4 inter body-base">You can now <a asp-area="Identity" asp-page="/Account/Login" class="subtitle-base bold">Login</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
